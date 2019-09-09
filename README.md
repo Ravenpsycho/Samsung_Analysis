@@ -39,25 +39,25 @@ These signals were used to estimate variables of the feature vector for each pat
 tBodyAcc-XYZ  
 tGravityAcc-XYZ  
 tBodyAccJerk-XYZ  
-tBodyGyro-XYZ\n
-tBodyGyroJerk-XYZ\n
-tBodyAccMag\n
-tGravityAccMag\n
-tBodyAccJerkMag\n
-tBodyGyroMag\n
-tBodyGyroJerkMag\n
-fBodyAcc-XYZ\n
-fBodyAccJerk-XYZ\n
-fBodyGyro-XYZ\n
-fBodyAccMag\n
-fBodyAccJerkMag\n
-fBodyGyroMag\n
-fBodyGyroJerkMag\n
+tBodyGyro-XYZ  
+tBodyGyroJerk-XYZ  
+tBodyAccMag  
+tGravityAccMag  
+tBodyAccJerkMag  
+tBodyGyroMag  
+tBodyGyroJerkMag  
+fBodyAcc-XYZ  
+fBodyAccJerk-XYZ  
+fBodyGyro-XYZ  
+fBodyAccMag  
+fBodyAccJerkMag  
+fBodyGyroMag  
+fBodyGyroJerkMag  
 
 The set of variables that were estimated from these signals are:  
 
-mean(): Mean value
-std(): Standard deviation
+mean(): Mean value  
+std(): Standard deviation  
 
 The values of the output file are the means of several of the values above.
 They are grouped by subject and activity.
