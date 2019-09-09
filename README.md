@@ -16,6 +16,9 @@ means of mean and means of standard deviations).
 
 #### CODEBOOK #####################
 
+NB: Features are normalized and bounded within [-1,1]  
+    Each feature vector is a row on the text file
+
 The features selected for this database come from the accelerometer and 
 gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals
 (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then 
