@@ -9,7 +9,7 @@ Dataset". It will gather two main data files (./test/X_test.txt and
 It will then simlify the variables, keeping only the ones containing either  
 "mean()" or "std()" in their names (respectively means and standard  
 deviations) THE FACT THAT COLUMNS CONTAINING MeanFreq() IS DELIBERATE, since it  
-can lead to confusion.  
+can lead to confusion and was not requested in the assignment.  
   
 Finally, it will use the package dplyr to create another data frame containing  
 the means of each variable, grouped by activity and by subject (resulting in  
