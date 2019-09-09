@@ -52,4 +52,3 @@ write.table(new_df, file = "./output/means_by_subject_and_activity.txt", row.nam
 
 ## If you need to read the data again, use argument 'header = TRUE'
 ## i.e: example_read <- read.table("./output/means_by_subject_and_activity.txt", header = T)
-       
