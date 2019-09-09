@@ -10,8 +10,9 @@ It will then merge both datasets using the rbind function.
 
 After that, it will reduce the number of variables, keeping only the ones  
 containing either "mean()" or "std()" in their names (respectively means and  
-standard deviations) THE FACT THAT COLUMNS CONTAINING MeanFreq() IS DELIBERATE,  
-since it can lead to confusion and was not requested in the assignment.  
+standard deviations) THE FACT THAT COLUMNS CONTAINING MeanFreq() ARE OMMITED  
+IS DELIBERATE, since it can lead to confusion and was not requested in the 
+assignment.  
 
 This makes the variables number drop from 561 to 66 (plus 2 for the subject and  
 activity).  
