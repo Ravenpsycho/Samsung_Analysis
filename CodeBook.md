@@ -54,3 +54,10 @@ The set of variables that were estimated from these signals are:
 
 mean(): Mean value  
 std(): Standard deviation  
+
+Several measures of all these features were performed for each subject (30)  
+and each different activity (6).
+
+The script run_analysis.R gathers all results that share the same activity  
+and subject and displays the mean of those values, each line corresponding  
+to a specific subject performing a specific activity.
